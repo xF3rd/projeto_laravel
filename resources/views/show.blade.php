@@ -16,7 +16,7 @@
             <h3>Endereço: {{ Auth::user()->endereco }}</</h3>
         </div>
         <div>
-            <a href="/home/edit">Editar</a>
+            <a href="/home/edit/{{Auth::user()->id}}">Editar</a>
             <a href="#">Deletar</a>
     </div>
 
